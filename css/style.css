@@ -1,0 +1,14 @@
+.container {
+  width: 1141px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 3px solid red;
+}
+.header {
+  display: flex;
+  gap: 813px;
+}
+.menu {
+  border: none;
+  background: none;
+}
