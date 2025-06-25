@@ -379,3 +379,8 @@ body {
   border-top: 1px solid #21384218;
   margin-bottom: 322px;
 }
+.make{
+  background-color: var(--white-color);
+  width: 1275px;
+  position: absolute;
+}
