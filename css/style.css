@@ -22,9 +22,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  top: 24px;
   position: absolute;
+  top: 24px;
   left: 50%;
+  z-index: 2;
   transform: translateX(-50%);
 }
 .menu {
@@ -178,6 +179,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 188px;
+  position: relative;
 }
 .hero-pretitle {
   font-family: "Poppins", sans-serif;
@@ -225,8 +227,9 @@ body {
   box-shadow: 50px 50px 100px 0px #00000025;
   width: 1275px;
   position: absolute;
-  top: 708px;
-  right: 0;
+  bottom: -124px;
+  left: 12%;
+  
 }
 .client-list {
   display: flex;
