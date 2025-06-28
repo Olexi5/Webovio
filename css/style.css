@@ -223,13 +223,12 @@ body {
 }
 .client {
   background-color: var(--white-color);
-  padding: 60px 166px 54px 65px;
+  padding: 60px 65px 54px 65px;
   box-shadow: 50px 50px 100px 0px #00000025;
-  width: 1275px;
+  width: 1200px;
   position: absolute;
   bottom: -124px;
-  left: 12%;
-  
+  right: calc(50% - 720px);
 }
 .client-list {
   display: flex;
@@ -515,10 +514,6 @@ body {
 }
 .inf-link:hover {
   background-color: var(--accent-color);
-}
-.container2 {
-  width: 1141px;
-  margin: 0 auto;
 }
 .logo-text {
   color: #b5c096;
